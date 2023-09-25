@@ -20,6 +20,7 @@ public int cantidadTotalAnimales() {
 	}
 	return cantidadAnimales;
 }
+
 public void agregarZonas(Zona zona) {
 	zonas.add(zona);
 }
