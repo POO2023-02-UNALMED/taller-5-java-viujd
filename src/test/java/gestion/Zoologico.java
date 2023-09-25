@@ -24,4 +24,29 @@ public int cantidadTotalAnimales() {
 public void agregarZonas(Zona zona) {
 	zonas.add(zona);
 }
+
+public String getNombre() {
+	return this.nombre;
+}
+
+public void setNombre(String nombre) {
+	this.nombre=nombre;
+}
+
+public String getUbicacion() {
+	return this.ubicacion;
+}
+
+public void setUbicacion(String ubicacion) {
+	this.ubicacion=ubicacion;
+}
+
+public ArrayList<Zona> getZona(){
+return zonas;
+}
+
+public void setZona(ArrayList<Zona> zonas) {
+	this.zonas=zonas;
+}
+
 }
