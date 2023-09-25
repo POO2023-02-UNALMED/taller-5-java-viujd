@@ -20,10 +20,6 @@ public Animal () {
 	totalAnimales+=1;
 }
 
-public int totalAnimales() {
-	return totalAnimales;
-}
-
 public static String totalPorTipo() {
 	return "Mamifero: " + Mamifero.cantidadMamifero() + "\nAves: " + Ave.cantidadAve() + "\nReptiles: " + Reptil.cantidadReptil() + "\nPeces " + Pez.cantidadPez() + "\nAnfibios " + Anfibio.cantidadAnfibio();
 }
