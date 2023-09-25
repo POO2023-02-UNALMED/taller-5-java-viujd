@@ -16,7 +16,7 @@ public Ave() {
 	listado.add(this);
 }
 	
-public static int cantidadAve() {
+public static int cantidadAves() {
 	return listado.size();
 }
 

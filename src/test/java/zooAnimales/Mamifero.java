@@ -18,7 +18,7 @@ public Mamifero() {
 	listado.add(this);
 }
 
-public static int cantidadMamifero() {
+public static int cantidadMamiferos() {
 	return listado.size();
 }
 

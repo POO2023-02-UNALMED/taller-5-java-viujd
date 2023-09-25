@@ -19,7 +19,7 @@ public Pez () {
 	listado.add(this);
 }
 
-public static int cantidadPez() {
+public static int cantidadPeces() {
 	return listado.size();
 }
 

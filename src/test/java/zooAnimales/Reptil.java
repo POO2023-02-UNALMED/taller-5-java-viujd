@@ -17,7 +17,7 @@ public Reptil() {
 	listado.add(this);
 }
 
-public static int cantidadReptil() {
+public static int cantidadReptiles() {
 	return listado.size();
 }
 

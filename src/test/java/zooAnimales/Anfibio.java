@@ -18,7 +18,7 @@
 		listado.add(this);
 	}
 	
-	public static int cantidadAnfibio() {
+	public static int cantidadAnfibios() {
 		return listado.size();
 	}
 	
