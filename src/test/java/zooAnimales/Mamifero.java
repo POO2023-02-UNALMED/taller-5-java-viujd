@@ -42,7 +42,7 @@ public static void setListado(ArrayList<Mamifero> listado) {
 	Mamifero.listado=listado;
 }
 
-public boolean getPelaje() {
+public boolean isPelaje() {
 	return pelaje;
 }
 

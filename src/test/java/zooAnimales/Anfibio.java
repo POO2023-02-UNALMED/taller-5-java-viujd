@@ -53,7 +53,7 @@
 	public void setColorPiel(String colorPiel) {
 		this.colorPiel=colorPiel;
 	}
-	public boolean getVenenoso() {
+	public boolean isVenenoso() {
 		return venenoso;
 	}
 	
