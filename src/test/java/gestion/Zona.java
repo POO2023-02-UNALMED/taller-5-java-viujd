@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Zona {
 	private String nombre;
 	private Zoologico zoo;
-	private  ArrayList<Animal> animales=new ArrayList<>();
+	private ArrayList<Animal> animales=new ArrayList<Animal>();
 
 public Zona(String nombre, Zoologico zoo) {
 	this.nombre=nombre;
@@ -20,7 +20,7 @@ public void agregarAnimales(Animal animal) {
 }
 
 public int cantidadAnimales() {
-	return animales.size();
+	return this.animales.size();
 }
 
 public String getNombre() {
@@ -40,7 +40,7 @@ public void setZoo(Zoologico zoo) {
 }
 
 public ArrayList<Animal> getAnimales(){
-	return(animales);
+	return this.animales;
 }
 
 public void setAnimales (ArrayList<Animal> animales) {
